@@ -1,6 +1,6 @@
 {
   "name": "redis-mpool",
-  "version": "0.4.0-maptalks1",
+  "version": "0.4.0-maptalks2",
   "main": "./index.js",
   "description": "Provides db pools for redis",
   "url": "https://github.com/cartodb/node-redis-mpool",
@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "generic-pool": "~2.1.1",
-    "hiredis": "^0.4.1",
+    "hiredis": "https://github.com/wsw0108/hiredis-node/tarball/v0.4.1-maptalks1",
     "redis": "^2.4.2",
     "underscore": "~1.6.0"
   },
@@ -34,6 +34,6 @@
     "test": "./run_tests.sh test/*"
   },
   "engine": {
-    "node": ">= 0.6 < 0.9"
+    "node": ">= 0.6"
   }
 }
